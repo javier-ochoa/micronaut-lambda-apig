@@ -5,11 +5,11 @@ import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class BookLambdaRuntime extends MicronautLambdaHandler {
+public class ExampleLambdaRuntime extends MicronautLambdaHandler {
 
-  private static Logger LOGGER = LoggerFactory.getLogger(BookLambdaRuntime.class);
+  private static Logger LOGGER = LoggerFactory.getLogger(ExampleLambdaRuntime.class);
 
-  public BookLambdaRuntime() throws Exception {
+  public ExampleLambdaRuntime() throws Exception {
     try {
 
     } catch (Exception e) {
