@@ -1,4 +1,4 @@
-package com.aorkado;
+package com.aorkado.controllers;
 
 import static org.mockito.Mockito.doReturn;
 import static org.mockito.Mockito.mock;
@@ -6,6 +6,8 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.verifyNoInteractions;
 import static org.mockito.Mockito.verifyNoMoreInteractions;
 
+import com.aorkado.controllers.KeyController;
+import com.aorkado.tools.RandomKeyGenerator;
 import io.micronaut.test.annotation.MicronautTest;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;

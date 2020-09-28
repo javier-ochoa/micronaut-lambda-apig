@@ -1,5 +1,6 @@
-package com.aorkado;
+package com.aorkado.controllers;
 
+import com.aorkado.tools.RandomKeyGenerator;
 import com.google.gson.JsonObject;
 import io.micronaut.core.annotation.Introspected;
 import io.micronaut.http.MediaType;

@@ -1,6 +1,7 @@
-package com.aorkado;
+package inttests;
 
-import com.aorkado.mocks.MockRandomKeyGenerator;
+import com.aorkado.ExampleLambdaRuntime;
+import inttests.mocks.MockRandomKeyGenerator;
 import io.micronaut.http.HttpRequest;
 import io.micronaut.http.client.RxHttpClient;
 import io.micronaut.http.client.annotation.Client;
@@ -12,7 +13,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 @MicronautTest
-public class ExampleLambdaRuntimeTest {
+public class ExampleLambdaRuntimeIntTest {
 
   private static ExampleLambdaRuntime runtime;
 

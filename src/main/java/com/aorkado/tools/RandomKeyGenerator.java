@@ -1,4 +1,4 @@
-package com.aorkado;
+package com.aorkado.tools;
 
 import io.micronaut.core.annotation.Introspected;
 import javax.inject.Singleton;

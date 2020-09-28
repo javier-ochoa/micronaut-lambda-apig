@@ -1,6 +1,6 @@
-package com.aorkado.mocks;
+package inttests.mocks;
 
-import com.aorkado.RandomKeyGenerator;
+import com.aorkado.tools.RandomKeyGenerator;
 import io.micronaut.context.annotation.Replaces;
 import javax.inject.Singleton;
 
